@@ -44,7 +44,7 @@ hapi:
       kl_gateway:
         url: http://build.fhir.org/ig/hl7dk/kl-gateway/package.tgz
         name: hl7.fhir.dk.kl.gateway.care
-        version: 0.9.3
+        version: 1.0
 
     supported_resource_types:
       - Patient
@@ -59,6 +59,7 @@ hapi:
       - Encounter
       - Goal
       - Binary
+      - Subscription
 #    allow_cascading_deletes: true
 #    allow_contains_searches: true
 #    allow_external_references: true
